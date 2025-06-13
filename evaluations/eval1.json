@@ -1,0 +1,16 @@
+{
+  "user_goal": "Check if the next SpaceX launch will be delayed",
+  "expected_agents": [
+    "spacex_agent",
+    "weather_agent",
+    "delay_prediction_agent",
+    "summary_agent"
+  ],
+  "expected_keys": [
+    "launch_name",
+    "date_utc",
+    "weather",
+    "delay_prediction",
+    "summary"
+  ]
+}
